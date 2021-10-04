@@ -43,19 +43,8 @@
      
      <iframe src="silence.mp3" allow="autoplay" id="audio"></iframe> 
     
-        <audio id="groove" autoplay="" controls="" loop=""><source src="sound.mp3" type="audio.mp3"> 
+        <audio id="player" autoplay="" controls="" loop=""><source src="sound.mp3" type="audio.mp3"> 
 	    </audio>
         
-        
-    <button>
-        className={`border-2 border-green-700 bg-green-500 ${
-          audio ? '' : 'cursor-not-allowed'
-        } text-white rounded-md px-4 py-2 mt-4 text-center`}
-        onClick={handleClick}
-        disabled={audio === undefined}
-      >
-        {audio ? 'Play after resolving a promise ▶' : '▲ Click the button above to load audio'}
-      </button>
-
 
 </body></html>
