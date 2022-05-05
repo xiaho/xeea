@@ -3,7 +3,7 @@
 :root {
     --accent-color: 32,32,32;
     --background-color: 227,38,54;
-    --load-in-animspeed: 2.5s;
+    --load-in-animspeed: 1.8s;
 }
 
 * {
