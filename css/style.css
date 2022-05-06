@@ -116,6 +116,10 @@ video {
   overflow: auto;
 }
 
+hr {
+    border: 1px rgb(191,0,255) solid;
+}
+
 .scrollbar::-webkit-scrollbar-track {
     background-color: rgba(0, 0, 0, 0.3);
 }
