@@ -101,10 +101,6 @@ video {
     border: 1px rgb(191,0,255) solid;
 }
 
-hr {
-    border: 1px rgb(191,0,255) solid;
-}
-
 #membersList {
   text-align: center;
   overflow: hidden;
