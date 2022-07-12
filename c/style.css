@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
 
 :root {
-    --accent-color: 5,5,5;
-    --background-color: 244,187,255;
+    --accent-color: 191, 0, 255;
+    --background-color: 14,14,14;
     --load-in-animspeed: 1.8s;
 }
 
