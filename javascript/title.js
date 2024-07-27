@@ -11,7 +11,7 @@ function loaded(){
 	setInterval(loop, 300);
 }
 var x = 0;
-var titleText = [ "", "a|", "a/", "ak|", "ak/", "aku|", "aku/", "akuz|", "akuz/", "akuza|", "akuza/", "akuz|", "akuz/", "aku|", "aku/", "ak|", "ak/", "a|", "a/", "乡"];
+var titleText = [ "", "y|", "y/", "yo|", "yo/", "yok|", "yok/", "yoka|", "yoka/", "yokai|", "yokai/", "yoka|", "yoka/", "yok|", "yok/", "yo|", "yo/", "y|", "y/", "乡"];
 
 function loop(){
 	document.getElementsByTagName("title")[0].innerHTML = titleText[x++%titleText.length];
